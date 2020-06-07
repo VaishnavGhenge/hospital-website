@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+    <meta charset="UTF-8">
+    <title>Hospital Detail</title>
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'style.css'%}"/>
+</head>
+<body>
+    <h2 class="redclass"><center>Hospital Detail</center></h2>
+    <ol class="whiteclass">
+        {% for i in h_detail %}
+        <li>{{ i }}</li>
+        {% endfor %}
+    </ol>
+</body>
+</html>

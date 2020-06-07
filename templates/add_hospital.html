@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <title>Add Hospital</title>
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'style.css'%}"/>
+</head>
+<body>
+    <h2 class="redclass"><center>Add Hopsital</center></h2>
+    <center>
+        <form action="" method="POST" novalidate>{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" name="submit" value="submit">
+        </form>
+    </center>
+</body>
+</html>

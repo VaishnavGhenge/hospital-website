@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Anton&family=Playfair+Display&display=swap');
+body 
+{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.myclass
+{
+	background-color: #3366ff;
+    color: white;
+}
+.redclass
+{
+    color: white;
+    font-size: 40px;
+    font-weight:600;
+    text-align: center;
+    font-family: "Sofia";
+}
+.whiteclass
+{
+	color: #003399;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Playfair Display', serif;
+}
+.addressclass
+{
+	color: #003399;
+	font-size: 15px;
+	font-weight: 600;
+}
+#button-weight
+{
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: 'Anton', sans-serif;
+}
+#mid-term
+{
+	font-family: "Sofia";
+}
+a:link, a:visited 
+{
+  background-color: #003399;
+  color: #e6e6e6;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active 
+{
+  background-color: #004de6;
+}
